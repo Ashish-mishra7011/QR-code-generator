@@ -11,6 +11,7 @@ function generateQR(){
         setTimeout(()=>{
             qrText.classList.remove('error');
         },1000)
+        qrImage.src="th.jpg"
         qrImage.alt="❌ Wrong Input";
         imgbox.classList.add("show-img2")
     }
